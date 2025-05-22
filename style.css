@@ -1,0 +1,94 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Brush Script MT", cursive;
+  background: linear-gradient(135deg, #d20046, #0004ff);
+  color: #ff0000;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  padding: 2rem 4rem;
+  background-color: rgb(0, 255, 55);
+  border-bottom: 4px dashed #800080;
+  text-align: center;
+}
+
+/* Header Nav List */
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+/* Links  */
+a {
+  color: #0000ff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #ff1493;
+  font-style: italic;
+  transform: rotate(-2deg) scale(1.1);
+  text-shadow: 2px 2px 0 yellow;
+}
+
+/* H1 */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 0;
+  color: #ff4500;
+  text-shadow: 2px 4px #ffff00, 4px 12px #00ffff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+/* Main */
+main {
+  margin: 2rem 4rem;
+}
+
+/* Sections: Like Chapters in a Fabulous Novel */
+main section {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  border: 8px solid hotpink;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3rem;
+}
+
+/* Paragraphs */
+p {
+  max-width: 75ch; /* ch = Relative to the width of the "0" (zero)	*/
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333333;
+  font-family: "Trebuchet MS", cursive;
+}
+
+/* Section titles and details */
+section li h3 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #ff6347;
+  margin-bottom: 0.5rem;
+}
+
+section li p {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
